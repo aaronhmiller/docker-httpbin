@@ -1,0 +1,10 @@
+version: "3"
+services:
+
+ httpbin:
+  image: kennethreitz/httpbin
+  platform: linux/amd64
+  container_name: httpbin
+  hostname: httpbin
+  ports:
+   - 80:80
